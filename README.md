@@ -36,7 +36,8 @@ brought this 20-year-old keyboard to my attention. It was highly
 praised, seemed to be very robust, and had Apple's 'command' and
 'alt' keys.
 
-[![The Keyboard](./Tuning%20an%20Apple%20Extended%20Keyboard%20II_files/2452372207_cf363ab2a4_z.jpg)](http://www.flickr.com/photos/gruber/2452372207/)
+[![The Keyboard](http://farm4.staticflickr.com/3083/2452372207_cf363ab2a4_z.jpg)](http://www.flickr.com/photos/gruber/2452372207/)
+
 There are usually some for sale on Ebay, and I needed a really
 cheap one, since the shipping to Spain would account for at least
 50€. Furthermore, that keyboard also needs an ADB cable and the
@@ -51,8 +52,10 @@ there is no clear way to distinguish them. However, looking at the
 label can help. Here are the labels of Apple keyboards with Alps
 switches.
 
-![AEKII with Alps switches](./Tuning%20an%20Apple%20Extended%20Keyboard%20II_files/aekii-alps1.jpg)
-![AEKII with Alps switches](./Tuning%20an%20Apple%20Extended%20Keyboard%20II_files/aekii-alps2.jpg)
+![AEKII with Alps switches](img/aekii-alps1.jpg)
+
+![AEKII with Alps switches](img/aekii-alps2.jpg)
+
 You should look for the "Made in the USA" and the bar code ending
 in M3012. My advice is to always ask the seller for confirmation,
 it is a matter of removing one keycap and
@@ -67,11 +70,9 @@ about clicky keyboards, watching Youtube videos and remembering an
 IBM Model M I had at college for some time, the AEKII had muffled,
 plain, *boring* keystrokes.
 
-Here's an audio recording what I mean for 'click' (first sound) and
+[Here's an audio](https://raw.github.com/carlesfe/aekii/master/img/click.mp3) recording what I mean for 'click' (first sound) and
 'clock' (second sound)
 
-Your browser does not support the <audio\> tag, please
-[download the mp3 file manually.](http://carlosfenollosa.com/computers/keyboard/click.mp3)
 It is also worth mentioning that the Caps Lock key is a two-step
 button. That would have been amazing for a Caps Lock key, but since
 I use Ctrl instead, that would defeat its purpose.
@@ -95,7 +96,8 @@ the plastic walls. However, the AEKII has
 [this kind of nonclicky leaves](http://imgur.com/a/elAFF#7) which
 stay fixed in place and don't hit the plastic enclosure back.
 
-![the AEKII leaves](./Tuning%20an%20Apple%20Extended%20Keyboard%20II_files/DUxIF.jpg)
+![the AEKII leaves](img/DUxIF.jpg)
+
 Just as I was starting to think that the AEKII keys would never
 click, I noticed that some of the keys produced a very light click,
 in comparison to the silent majority. This was a very subtle hint:
@@ -190,12 +192,12 @@ event.
 
 Just in case the message is deleted, the solution is as follows:
 
-1.  Install both KeyRemap4Macbook and
-    [PCKeyboardHack](http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en)
-2.  Using OSX's control panel, change Caps Lock to 'None'
-3.  Remap CapsLock on PCKH into 'PC Application' (code 110)
-4.  Use this item in your KR4M's private.xml
+1. Install both KeyRemap4Macbook and [PCKeyboardHack](http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en)
+2. Using OSX's control panel, change Caps Lock to 'None'
+3. Remap CapsLock on PCKH into 'PC Application' (code 110)
+4. Use this item in your KR4M's `private.xml`
 
+```
     <item>
         <name>CapsLock to ControlLock</name>
         <appendix>For the AEKII</appendix>
@@ -203,6 +205,7 @@ Just in case the message is deleted, the solution is as follows:
         <autogen>--KeyToKey-- KeyCode::PC_APPLICATION, KeyCode::VK_LOCK_CONTROL_L</autogen>
         <autogen>--KeyToKey-- KeyCode::ESCAPE, KeyCode::ESCAPE, KeyCode::VK_LOCK_ALL_FORCE_OFF</autogen>
     </item>
+```
 
 ### Remap the power button to sleep
 
@@ -221,7 +224,7 @@ using [Keyboard Maestro](http://www.keyboardmaestro.com/main/), map
 F19 to 'Sleep'. As simple as that.
 
 *Update:* The same effect can be achieved with KeyRemap4Macbook.
-Add this to your private.xml:
+Add this to your `private.xml`:
 
     <item>
         <name>Sleep key on the AEKII</name>
@@ -239,7 +242,7 @@ I am very used to have the right option key next to the space on my
 MBA, which is handy because I write in Spanish using the US
 keyboard, and that right option lets me do accents and other latin
 letters. I had the idea of switching the right command and option
-keys to have option\_r closer to my thumb, but Unfortunately
+keys to have option_r closer to my thumb, but Unfortunately
 [the iMate sends all modifiers as 'left' keys](https://groups.google.com/forum/?fromgroups=#!topic/keyremap4macbook/iKvLuUM_0ow),
 i.e. right command is sent as left command, and there is nothing we
 can do about it.
@@ -272,17 +275,10 @@ to make your work more efficient.
 
 Thanks for reading and hope you enjoyed it!
 
-![My setup](./Tuning%20an%20Apple%20Extended%20Keyboard%20II_files/setup.jpg)
+![My setup](img/setup.jpg)
 
 * * * * *
 
 CC by-nc 2012-2013, Carlos Fenollosa. Contact:
 [twitter](http://twitter.com/cfenollosa) or
-[mail](mailto:carlos.fenollosa@gmail.com). Last modified: Thu 13
-Dec 2012 12:20:25 CET
-
-[Back to the computers section](http://carlosfenollosa.com/computers)
-
-/body\>
-
-
+[mail](mailto:carlos.fenollosa@gmail.com)
