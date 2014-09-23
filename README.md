@@ -133,8 +133,6 @@ the legs.
 
 ![Bend the leaves](img/legsbent.JPG)
 
-If the original legs are 90 degrees straight, bend the front ones to about 30 degrees
-
 That was enough. Slightly bending the four legs of every leaf made
 the reconstructed key produce a clicking sound. One can adjust the
 exact tune of every key by means of this angle. The looser the
