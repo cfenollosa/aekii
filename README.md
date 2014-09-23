@@ -96,8 +96,6 @@ the plastic walls. However, the AEKII has
 [this kind of nonclicky leaves](http://imgur.com/a/elAFF#7) which
 stay fixed in place and don't hit the plastic enclosure back.
 
-![the AEKII leaves](img/DUxIF.jpg)
-
 Just as I was starting to think that the AEKII keys would never
 click, I noticed that some of the keys produced a very light click,
 in comparison to the silent majority. This was a very subtle hint:
@@ -112,6 +110,8 @@ usage?
 switches, and more importantly, how to assemble them back. Please
 note, the black plastic part doesn't seem to be reversible, so
 remember which way was it facing when you remove it.
+
+![How to remove a keyswitch](img/removekeys.JPG)
 
 Once I had some keys fully disassembled, it was time to debug their
 tune. Why was there a difference between the clicky C and the dull
@@ -129,10 +129,37 @@ easily. On silent keys, the leaf was stuck in place by the force of
 the legs.
 **Slightly angling them, from the original 90 degrees to about 45-60 degrees from the base, made them loose and allowed the leaf to freely slide in and out of the keyswitch.**
 
+![Bend the leaves](img/legsbent.JPG)
+
 That was enough. Slightly bending the four legs of every leaf made
 the reconstructed key produce a clicking sound. One can adjust the
 exact tune of every key by means of this angle. The looser the
 leaf, the clickier the key.
+
+## Update: Other modding configurations
+
+Jeff sent me an email suggesting bending only two legs, those closer to the "V"
+of the leaf. This produces a much nicer sound, less metallic and closer to
+those of a Model M. He also suggested removing the rubber inserts for a louder, unmuffled sound,
+and better touch feeling.
+
+![Removing the rubber dampers](img/rubber.JPG)
+
+You can see that this opens a lot of combinations: rubber/no rubber, 
+90 degrees legs, 4 bent legs or 2 bent legs. I prefer the unmuffled
+sound so I went without the rubber inserts, and compared the effect
+of 2 vs 4 bent leaves.
+
+[You can listen to the options here](https://raw.github.com/carlesfe/aekii/master/img/keys.m4a)
+
+The first one is the vanilla AEKII, the second one is 2 bent tabs plus dampers removed, 
+the third one is 4 bent tabs plus dampers removed. The audio then repeats the three keys again. 
+The difference in volume isn't just an artifact of the recording, it's quite noticeable live.
+
+Obviously, you can play with all the combinations you want. Overall I prefer the second one
+-- no rubber, 2 bent leaves. When the 4 tabs are bent, each keystroke makes the metallic leaf 
+vibrate a lot, and I don't quite like it.
+
 
 ## Aftermath
 
@@ -192,9 +219,9 @@ event.
 
 Just in case the message is deleted, the solution is as follows:
 
-1. Install both KeyRemap4Macbook and [PCKeyboardHack](http://pqrs.org/macosx/keyremap4macbook/pckeyboardhack.html.en)
-2. Using OSX's control panel, change Caps Lock to 'None'
-3. Remap CapsLock on PCKH into 'PC Application' (code 110)
+1. Install both KeyRemap4Macbook and [Seil](https://pqrs.org/osx/karabiner/seil.html.en)
+2. Using OSX's control panel, change "Keyboard", "Modifier keys", "Caps Lock" to "No action"
+3. Change the CapsLock key on Seil into 'PC Application' (keycode 110)
 4. Use this item in your KR4M's `private.xml`
 
 ```
@@ -235,10 +262,14 @@ Add this to your `private.xml`:
             KeyCode::VK_CONSUMERKEY_EJECT, ModifierFlag:: COMMAND_L | ModifierFlag:: OPTION_L
         </autogen>
     </item>
+    
+*Update:* With Mavericks, the trick above opens the "Shut down" dialog.
+If you want to send your mac directly to sleep, open Seil and use the option "Change ADB Power Key".
+
 
 ### Other remappings
 
-I am very used to have the right option key next to the space on my
+I am very used to have the right option key close to the space on my
 MBA, which is handy because I write in Spanish using the US
 keyboard, and that right option lets me do accents and other latin
 letters. I had the idea of switching the right command and option
