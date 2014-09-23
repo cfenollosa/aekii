@@ -112,6 +112,7 @@ note, the black plastic part doesn't seem to be reversible, so
 remember which way was it facing when you remove it.
 
 ![How to remove a keyswitch](img/removekeys.JPG)
+Pull, don't pry
 
 Once I had some keys fully disassembled, it was time to debug their
 tune. Why was there a difference between the clicky C and the dull
@@ -130,11 +131,16 @@ the legs.
 **Slightly angling them, from the original 90 degrees to about 45-60 degrees from the base, made them loose and allowed the leaf to freely slide in and out of the keyswitch.**
 
 ![Bend the leaves](img/legsbent.JPG)
+If the original legs are 90 degrees straight, bend the front ones to about 30 degrees
 
 That was enough. Slightly bending the four legs of every leaf made
 the reconstructed key produce a clicking sound. One can adjust the
 exact tune of every key by means of this angle. The looser the
 leaf, the clickier the key.
+
+*Note: the legs are fragile, so be careful when bending them. The process is
+reversible but if you move them too much they may break. I then suggest swapping
+that keyswitch with one that you don't use, like F15*
 
 ## Update: Other modding configurations
 
@@ -144,6 +150,7 @@ those of a Model M. He also suggested removing the rubber inserts for a louder, 
 and better touch feeling.
 
 ![Removing the rubber dampers](img/rubber.JPG)
+Remove both rubber dampers
 
 You can see that this opens a lot of combinations: rubber/no rubber, 
 90 degrees legs, 4 bent legs or 2 bent legs. I prefer the unmuffled
