@@ -112,6 +112,7 @@ note, the black plastic part doesn't seem to be reversible, so
 remember which way was it facing when you remove it.
 
 ![How to remove a keyswitch](img/removekeys.JPG)
+
 Pull, don't pry
 
 Once I had some keys fully disassembled, it was time to debug their
@@ -131,6 +132,7 @@ the legs.
 **Slightly angling them, from the original 90 degrees to about 45-60 degrees from the base, made them loose and allowed the leaf to freely slide in and out of the keyswitch.**
 
 ![Bend the leaves](img/legsbent.JPG)
+
 If the original legs are 90 degrees straight, bend the front ones to about 30 degrees
 
 That was enough. Slightly bending the four legs of every leaf made
@@ -150,6 +152,7 @@ those of a Model M. He also suggested removing the rubber inserts for a louder, 
 and better touch feeling.
 
 ![Removing the rubber dampers](img/rubber.JPG)
+
 Remove both rubber dampers
 
 You can see that this opens a lot of combinations: rubber/no rubber, 
