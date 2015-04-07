@@ -1,4 +1,6 @@
-*Note: my modded AEKII is for sale. If you're interested, [please email me](mailto:carlos.fenollosa@gmail.com). I will take this note down when I sell it, so if you can read this, it means the keyboard is still available.*
+*Note: my modded and in working condition AEKII is for sale. If you're interested and want to buy the 
+Apple Extended Keyboard II, [please email me](mailto:carlos.fenollosa@gmail.com). 
+I will take this note down when I sell it, so if you can read this, it means the keyboard is still available.*
 
 # Tuning an Apple Extended Keyboard II
 
