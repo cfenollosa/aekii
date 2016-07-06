@@ -61,7 +61,7 @@ switches.
 ![AEKII with Alps switches](img/aekii-alps2.jpg)
 
 You should look for the "Made in the USA" and the bar code ending
-in M3012. My advice is to always ask the seller for confirmation,
+in M0312. My advice is to always ask the seller for confirmation,
 it is a matter of removing one keycap and
 [looking for the 'ALPS' label](http://imgur.com/a/elAFF#2) on the
 top of the key switch.
